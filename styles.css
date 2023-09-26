@@ -1,9 +1,40 @@
 body {
   box-sizing: border-box;
+  margin: 0;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.header {
+  background: #1f2937;
+  color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.header * {
+  flex-shrink: 0;
+}
+
+.header .logo {
+  display: flex;
+  font-size: 24px;
+}
+
+.header .nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.header .nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
 }
