@@ -114,6 +114,30 @@ button.primary {
   justify-content: space-around;
 }
 
+.section.customer-stories {
+  background: #e5e7eb;
+  padding: 128px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section.customer-stories .quote {
+  max-width: 900px;
+}
+
+.section.customer-stories .quote .text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section.customer-stories .quote .citation {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+}
+
 .placeholder-img-1 {
   background-color: #6d747d;
   width: 600px;
