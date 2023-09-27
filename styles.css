@@ -88,8 +88,8 @@ button.primary.outline {
 .section.initial {
   background: #1f2937;
   display: flex;
-  padding: 32px 16px 128px;
-  justify-content: space-around;
+  padding: 64px 16px 128px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -114,7 +114,7 @@ button.primary.outline {
 }
 
 .section.info {
-  padding: 32px 16px 128px;
+  padding: 64px 16px 128px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,8 +160,8 @@ button.primary.outline {
   margin: 128px auto;
   border-radius: 16px;
   background: #3882f6;
-  padding: 32px 64px;
-  max-width: 800px;
+  padding: 48px 128px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
 }
