@@ -17,8 +17,14 @@ button.primary {
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 8px 32px;
   font-size: 18px;
+}
+
+button.primary.outline {
+  background: transparent;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
 }
 
 .figure {
@@ -136,6 +142,27 @@ button.primary {
   font-size: 18px;
   font-weight: 700;
   text-align: right;
+}
+
+.section.signup-ad {
+  margin: 128px auto;
+  border-radius: 16px;
+  background: #3882f6;
+  padding: 32px 64px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section.signup-ad .main-content .main-text {
+  color: #f9fafb;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.section.signup-ad .main-content .secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .placeholder-img-1 {
